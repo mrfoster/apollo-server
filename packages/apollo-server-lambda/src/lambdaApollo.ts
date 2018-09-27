@@ -27,10 +27,7 @@ const fileUploadProcess = async (
     request.headers['content-type'] =
       event.headers['content-type'] || event.headers['Content-Type'];
 
-    console.log('request', request);
-    const result = await processFileUploads(request, uploadsConfig || {});
-    console.log('result', result);
-    return result;
+    return await processFileUploads(request, uploadsConfig || {});
   }
 
   return event.body;
