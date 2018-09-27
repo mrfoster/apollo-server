@@ -1,7 +1,5 @@
 # Changelog
 
-All of the packages in the `apollo-server` repo are released with the same version numbers, so a new version of a particular package might not represent an actual change to that package. We generally try to mark changes that affect only one web server integration package with that package name, and don't specify package names for changes that affect most of the packages or which affect shared core packages.
-
 ### vNEXT
 
 - Fix [#1419](https://github.com/apollographql/apollo-server/issues/1419), [#1703](https://github.com/apollographql/apollo-server/issues/1703) file upload using lambda. [PR #1739](https://github.com/apollographql/apollo-server/pull/1739)
